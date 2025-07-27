@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(144, 142, 142); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    padding: 0px 30px;
+}
+
+#nav h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ri-shopping-bag-line{
+    
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 5px;
+    font-weight: 500;
+      
+}
+
+#center{
+    width: 100%;
+    /* background-color: red; */
+    padding: 40px 50px;
+}
+
+#center h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 65px;
+}
+
+#center-in {
+    margin-top: 50px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+#center-in p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#right{
+    width: 25%;
+}
+
+.elem{
+    /* margin: 10px; */
+    padding: 7px 0px;
+    line-height: 30px;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.elem i{
+    font-size: 23px;
+    opacity: 0;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+
+.elem:hover {
+    background-color: rgb(225, 221, 221);
+}
+
+.elem:hover a{
+    text-decoration: underline;
+}
+
+#bottom {
+    height: 35%;
+    width: 100%;
+    background-color: red;
+    background-image: url(https://plus.unsplash.com/premium_photo-1669950093661-be9dedbda440?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+    background-size: cover;
+    background-position: 0 41%;
+}
