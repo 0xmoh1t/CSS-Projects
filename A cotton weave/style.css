@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 50px 80px;
+    padding-top: 150px;
+    /* background-color: red */
+}
+
+#left {
+    width: 50%;
+    height: 100%;
+    /* background-color: red;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#left h1 {
+    margin-right: 301px;
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#capsule {
+    height: 5%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+#color {
+    /* background-color: blue; */
+    width: fit-content;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 50px;
+}
+
+#color h5 {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+#color1 {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(206, 202, 128);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#color2 {
+    height: 20px;
+    width: 20px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+#details{
+    margin-right: 191px;
+}
+
+#details h2{
+    margin-bottom: 5px;
+}
+#id p {
+    width: 50%;
+    margin-top: 8px;
+
+}
+
+#right {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    background-color: yellow;
+    flex-direction: column;
+}
+
+#right-nav{
+    display: flex;
+}
+
+#price {
+            margin-left: 20px;
+
+}
+#rating {
+        margin-left: 185px;
+
+}
+
+#img img{
+    margin: 19% 11%;
+    height: 87%;
+    width: 78%;
+}
+
+#circle i{
+    height: 30px;
+    width: 30px;
+}
+
