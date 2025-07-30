@@ -78,13 +78,14 @@ body {
     border-radius: 50%;
 }
 
-#details{
+#details {
     margin-right: 191px;
 }
 
-#details h2{
+#details h2 {
     margin-bottom: 5px;
 }
+
 #id p {
     width: 50%;
     margin-top: 8px;
@@ -95,31 +96,58 @@ body {
     width: 30%;
     height: 100%;
     display: flex;
-    background-color: yellow;
+    /* background-color: yellow; */
     flex-direction: column;
 }
 
-#right-nav{
+#right-nav {
     display: flex;
 }
 
 #price {
-            margin-left: 20px;
+    margin-left: 38px;
 
 }
+
 #rating {
-        margin-left: 185px;
+    margin-left: 147px;
+    font-size: 15px;
+
 
 }
 
-#img img{
-    margin: 19% 11%;
-    height: 87%;
+#img img {
+    margin: 0% 11%;
+    height: 94%;
     width: 78%;
+    object-fit: cover;
 }
 
-#circle i{
-    height: 30px;
-    width: 30px;
+#circle {
+    position: absolute;
+    display: flex;
+    top: 33%;
+    left: 69%;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #3b3232;
 }
 
+#circle h5 {
+    color: white;
+}
+
+#rotated {
+    position: absolute;
+    top: 62%;
+    left: 47%;
+    rotate: -90deg;
+}
+
+#rotated h5 {
+    font-weight: 600;
+    font-size: 25px;
+}
