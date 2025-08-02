@@ -49,17 +49,36 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.home{
+.home {
     color: rgb(28, 28, 28);
     text-decoration: underline;
 }
 
-#lets-talk{
-    color: blue;
-    height: 100px;
-    width: 100px;
+#lets-talk {
+    height: 28px;
+    width: 98px;
     font-family: "Poppins", sans-serif;
-    border: 1px solid blue;
-    border-radius: 50%;
-    text-align: center;
+    border: 3px solid blue;
+    border-radius: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px;
+    font-size: 16px;
 }
+
+#heading h1{
+    font-size: 80px;
+    line-height: 92px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading h1 span{
+    color: rgb(0, 0, 238);
+}
+
+
