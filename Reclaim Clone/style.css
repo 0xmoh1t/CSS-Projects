@@ -83,7 +83,7 @@ body {
     padding: 100px 20px;
     background-color: #ffffff;
     font-family: "Poppins", sans-serif;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .hero .container {
@@ -139,30 +139,60 @@ body {
     font-weight: 400;
     font-family: "Poppins", sans-serif;
     /* line-height: 26; */
+    box-sizing: border-box;
 
 }
 
 @keyframes reclaimBackerAnimation {
     from{
-        transform: translateX(-110vw);
+       
     }
 
     to{
-        transform: translateX(110vw);
+         transform: translateX(500%);
     }
 }
 .backers{
-    animation: 3s ease-in-out 1s infinite reverse both running slide-in reclaimBackerAnimation;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%; 
+    overflow: hidden;
 }
 
 .backers li{
+    animation: 10s ease-in 1s infinite reverse both running reclaimBackerAnimation;
     list-style-type: none;
 }
 .backers li img{
     height: 48px;
     padding: 0px 40px;
+}
+
+.usecase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.usecase h4{
+    color: blue;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+    line-height: 25px;
+}
+
+#solutions{
+    margin-top: 20px;
+    color: black;
+    font-size: 54px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 65px;
 }
