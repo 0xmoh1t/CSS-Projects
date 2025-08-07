@@ -229,3 +229,46 @@ body {
     margin: 10px 0px;
 }
 
+.contact{
+    width: 85vw;
+    height: 20rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid blue;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #0000FF;
+    color: white;
+     margin-top: 13%;
+    /* text-align: center; */
+}
+
+.contact h1{
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 65px;
+    margin-top: 5%;
+    margin-left: 18%;
+}
+
+.contact h3{
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: 1%;
+    margin-left: 20%;
+    color: rgb(215, 210, 210);
+}
+
+.contact buttons{
+    background-color: white;
+    color: grey;
+    margin-top: 1%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
